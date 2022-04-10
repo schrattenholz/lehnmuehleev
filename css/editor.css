@@ -1,0 +1,29 @@
+.font-weight-lighter {
+	font-weight: 200 !important;
+}
+.upper-line {
+	position: relative;
+}
+.upper-line::after {
+	top: -10%;
+}
+.display-4 {
+	font-size: 1.8125rem;
+	font-weight: 900;
+	line-height: 1.4;
+}
+.display-3 {
+	font-size: 2.4375rem;
+	font-weight: 900;
+	line-height: 1.4;
+}
+.display-2 {
+	font-size: 3.6875rem;
+	font-weight: 900;
+	line-height: 1.4;
+}
+.display-1 {
+	font-size: 4.625rem;
+	font-weight: 900;
+	line-height: 1.4;
+}

@@ -1,0 +1,1 @@
+<textarea type="$Type" class="$Type form-control" id="$ID" name="$Name" rows="$Rows" cols="$Cols" placeholder="$Title"<% if $RightTitle %>aria-describedby="{$Name}_right_title" <% end_if %>>$Value</textarea>
