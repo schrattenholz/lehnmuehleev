@@ -4,7 +4,7 @@
 				<div class="col-md" data-aos=fade-right >
 					<div class=" vh-100">
 					
-						<div class="bg-image bg-cover bg-position-center-center" style="background-image: url($MainImage.ScaleWidth(900).URL);"></div>
+						<div class="bg-image bg-cover bg-position-center-center" style="background-image: url({$BaseHref}$MainImage.ScaleWidth(900).URL);"></div>
 					</div>
 				</div>
 				<div class="col-md-6 position-absolute-md-down vh-100 d-flex flex-column" data-aos=fade-left>
