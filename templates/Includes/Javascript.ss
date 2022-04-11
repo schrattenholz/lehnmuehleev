@@ -1,4 +1,5 @@
 <!-- Core Javascripts -->
+<script> var pageLink="$Link"; </script>
 <% require themedJavascript('theme.core') %>
 <!-- Theme Javascripts -->
 <% require themedJavascript('theme') %>

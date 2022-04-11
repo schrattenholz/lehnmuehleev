@@ -20,7 +20,8 @@
             "images",
             "javascript",
 			"vendor",
-			"templates"
+			"templates",
+			"fonts"
         ]
 	}
 }

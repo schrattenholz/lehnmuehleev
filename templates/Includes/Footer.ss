@@ -1,9 +1,11 @@
     <!-- Footer -->
     <footer class="bg-primary text-white small mt-5">
         <div class="pt-6 pb-4 pt-lg-7 pb-lg-6">
-            <div class="container">
-                <div class="row justify-content-md-between">
-                    <div class="col-md-5 col-lg-4 d-flex flex-column justify-content-between ">
+            <div class="container-fluid">
+			
+
+				<div class="row justify-content-md-between">
+                    <div class="col-md-3 col-lg-3 d-flex flex-column justify-content-between ">
                          <img class="mx-auto mx-md-0" src="public/_resources/themes/lehnmuehleev/images/logo_lehnmuehle_w.png" style="max-width: 160px;"/>
 
                         <!-- Footer social links -->
@@ -25,10 +27,10 @@
                             </a>
                             </div>
                     </div>
-                    <div class="col-md-7 col-lg-6 mt-5 mt-md-0 ">
+                    <div class="col-md-9 col-lg-9 mt-5 mt-md-0 ">
                         <!-- Footer links -->
                         <div class="row">
-                            <div class="col-6 col-md-6 mb-4 mb-md-0">
+                            <div class="col-6 col-md-3 mb-4 mb-md-0">
                                 <h3 class="h6 text-uppercase mb-3">Adresse</h3>
                                 <ul class="list-unstyled">
                                     <li class="mb-1"><a href="#" class="text-reset"> $SiteConfig.BusinessName</a></li>
@@ -37,7 +39,7 @@
 									<li class="mb-1"><a href="#" class="text-reset">$SiteConfig.ZIP $SiteConfig.City</a></li>
                                 </ul>
                             </div>
-                            <div class="col-6 col-md-6 mb-4 mb-md-0">
+                            <div class="col-6 col-md-3 mb-4 mb-md-0">
                                 <h3 class="h6 text-uppercase mb-3">Kontakt</h3>
                                 <ul class="list-unstyled">
                                     <li class="mb-1"><a href="#" class="text-reset"><i class="fa fa-phone-square" aria-hidden="true"></i><span class="sr-only">Telefonnummer</span></span> <a href="tel:$SiteConfig.Phone" >$SiteConfig.Phone</a></a></li>
@@ -45,7 +47,9 @@
                                     <li class="mb-1"><i class="fa fa-globe" aria-hidden="true"><span class="sr-only">Webseitenadresse</span></i> $SiteConfig.Website</li>
                                 </ul>
                             </div>
-                           
+                            <div class="col-12 col-md-6 mb-4 mb-md-0">
+                                <% include Schrattenholz\\Newsletter\\NewsletterForm %>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -54,17 +58,19 @@
 
         <!-- Footer bottom -->
         <div class="border-top border-gray py-3">
-            <div class="container">
-                <div class="row justify-content-between small">
-                    <div class="col-auto">
-                        <a href="#" class="text-reset">Impressum</a> | <a href="#" class="text-reset">Datenschutz</a>
-                    </div>
-                    <div class="col-auto">
+            <div class="container-fluid">
+			<div class="row justify-content-center">
+			                    <div class="col-auto">
                         <a data-scroll href="#" class="d-inline-block text-reset" title="Up to the top">
                             <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>arrow-button-up-1</title><path d="M12,10.416a2.643,2.643,0,0,1,1.875.775l9.541,9.541a1.768,1.768,0,0,1-2.5,2.5l-8.739-8.739a.25.25,0,0,0-.354,0L3.084,23.232a1.768,1.768,0,0,1-2.5-2.5l9.541-9.541A2.643,2.643,0,0,1,12,10.416Z"/><path d="M12,.25a2.643,2.643,0,0,1,1.875.775l9.541,9.541a1.768,1.768,0,0,1-2.5,2.5L12.177,4.327a.25.25,0,0,0-.354,0L3.084,13.066a1.768,1.768,0,0,1-2.5-2.5l9.541-9.541A2.643,2.643,0,0,1,12,.25Z"/></svg>
                         </a>
                     </div>
-                    <div class="col-auto">
+			</div>
+                <div class="row justify-content-center justify-content-lg-between small">
+                    <div class="col-6">
+                        <a href="#" class="text-reset">Impressum</a> | <a href="#" class="text-reset">Datenschutz</a>
+                    </div>
+                    <div class="col-6">
                         <span>&copy;  $Now.Year, $SiteConfig.BusinessName, $SiteConfig.MainContact</span>
                     </div>
                 </div>

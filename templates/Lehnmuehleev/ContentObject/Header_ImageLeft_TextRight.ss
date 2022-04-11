@@ -1,10 +1,10 @@
-	<section class=" <% if $Pos==1 %>mb-0 py-0<% else %>py-6 py-lg-7 <% end_if %>" id="<% if $AnchorID %>$AnchorID<% else %>$URLSegment_$ID<% end_if %>">
+	<section class="$ColorSet.Class <% if $Pos==1 %>mb-0 py-0<% else %>py-6 py-lg-7 <% end_if %>" id="<% if $AnchorID %>$AnchorID<% else %>$URLSegment_$ID<% end_if %>">
 		<div class="container-fluid px-0">
 			<div class="row no-gutters align-items-center">
 				<div class="col-md" data-aos=fade-right >
 					<div class=" vh-100">
 					
-						<div class="bg-image bg-cover bg-position-center-center" style="background-image: url({$BaseHref}$MainImage.ScaleWidth(900).URL);"></div>
+						<div class="bg-image bg-cover bg-position-center-center" style="background-image: url($MainImage.ScaleWidth(900).URL);"></div>
 					</div>
 				</div>
 				<div class="col-md-6 position-absolute-md-down vh-100 d-flex flex-column" data-aos=fade-left>

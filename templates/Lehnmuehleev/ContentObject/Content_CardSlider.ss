@@ -27,8 +27,8 @@
 								<div class="card shadow lift">
 									<picture>
 										<!--<source srcset="assets/images/photos/photo-67.webp" type="image/webp">-->
-										<source srcset="$DefaultImage.ScaleWIdth(400).URL" type="image/jpg"> 
-										<img src="$DefaultImage.ScaleWIdth(400).URL" alt="$DefaultImage.Title" class="card-img-top">
+										<source srcset="$DefaultImage.Fill(400,300).URL" type="image/jpg"> 
+										<img src="$DefaultImage.Fill(400,300).URL" alt="$DefaultImage.Title" class="card-img-top">
 									</picture>
 									<div class="card-body">
 										<p class="font-size-6 text-uppercase mb-0"><small class="font-weight-bold">$Created.Nice</small></p>

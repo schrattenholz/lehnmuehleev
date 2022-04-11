@@ -107,7 +107,7 @@ var CC = function () {
 
 
   if (isExist(cookie)) {
-    fetchInject(['../assets/vendor/cookieconsent/build/cookieconsent.min.js', '../assets/vendor/cookieconsent/build/cookieconsent.min.css']).then(function () {
+    fetchInject(['public/_resources/themes/lehnmuehleev/vendor/cookieconsent/build/cookieconsent.min.js', 'public/_resources/themes/lehnmuehleev/vendor/cookieconsent/build/cookieconsent.min.css']).then(function () {
       init();
     });
   }
@@ -171,7 +171,7 @@ var SwiperSlider = function () {
 
 
   if (swiper.length > 0) {
-    fetchInject(['../assets/vendor/swiper/css/swiper.min.css', '../assets/vendor/swiper/js/swiper.min.js']).then(function () {
+    fetchInject(['public/_resources/themes/lehnmuehleev/vendor/swiper/css/swiper.min.css', 'public/_resources/themes/lehnmuehleev/vendor/swiper/js/swiper.min.js']).then(function () {
       [].forEach.call(swiper, function (el, i) {
         init(el, i);
       });
@@ -209,7 +209,7 @@ var TypedJS = function () {
 
 
   if (typed.length > 0) {
-    fetchInject(['../assets/vendor/typed.js/lib/typed.min.js']).then(function () {
+    fetchInject(['public/_resources/themes/lehnmuehleev/vendor/typed.js/lib/typed.min.js']).then(function () {
       [].forEach.call(typed, function (el, i) {
         init(el);
       });
@@ -482,7 +482,7 @@ var Photoswipe = function () {
 
 
   if (photoswipe.length > 0) {
-    fetchInject(['../assets/vendor/photoswipe/dist/photoswipe.min.js', '../assets/vendor/photoswipe/dist/photoswipe-ui-default.min.js']).then(function () {
+    fetchInject(['public/_resources/themes/lehnmuehleev/vendor/photoswipe/dist/photoswipe.min.js', 'public/_resources/themes/lehnmuehleev/vendor/photoswipe/dist/photoswipe-ui-default.min.js']).then(function () {
       init();
     });
   }
@@ -534,7 +534,7 @@ var Scroll = function () {
 
 
   if (isExist(smoothScroll)) {
-    fetchInject(['../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js']).then(function () {
+    fetchInject(['public/_resources/themes/lehnmuehleev/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js']).then(function () {
       init();
     });
   }
@@ -610,7 +610,7 @@ var StickyElement = function () {
 
 
   if (isExist(stickyItem)) {
-    fetchInject(['../assets/vendor/sticky-js/dist/sticky.min.js']).then(function () {
+    fetchInject(['public/_resources/themes/lehnmuehleev/vendor/sticky-js/dist/sticky.min.js']).then(function () {
       init();
     });
   }
@@ -651,7 +651,7 @@ var CounterUp = function () {
 
 
   if (countup.length > 0) {
-    fetchInject(['../assets/vendor/countup.js/dist/countUp.min.js']).then(function () {
+    fetchInject(['public/_resources/themes/lehnmuehleev/vendor/countup.js/dist/countUp.min.js']).then(function () {
       [].forEach.call(countup, function (el, i) {
         init(el);
       });
@@ -666,11 +666,11 @@ var Jarallax = function () {
       jarallaxVideo = document.querySelector('[data-jarallax-video]'); // Events
 
   if (isExist(jarallax)) {
-    fetchInject(['../assets/vendor/jarallax/dist/jarallax.min.js', '../assets/vendor/jarallax/dist/jarallax.css']);
+    fetchInject(['public/_resources/themes/lehnmuehleev/vendor/jarallax/dist/jarallax.min.js', 'public/_resources/themes/lehnmuehleev/vendor/jarallax/dist/jarallax.css']);
   }
 
   if (isExist(jarallaxVideo)) {
-    fetchInject(['../assets/vendor/jarallax/dist/jarallax-video.min.js']);
+    fetchInject(['public/_resources/themes/lehnmuehleev/vendor/jarallax/dist/jarallax-video.min.js']);
   }
 }(); // Floating objects
 
@@ -868,7 +868,7 @@ var Isotope = function () {
 
 
   if (isExist(grid)) {
-    fetchInject(['../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js', '../assets/vendor/isotope-layout/dist/isotope.pkgd.min.js']).then(function () {
+    fetchInject(['public/_resources/themes/lehnmuehleev/vendor/imagesloaded/imagesloaded.pkgd.min.js', 'public/_resources/themes/lehnmuehleev/vendor/isotope-layout/dist/isotope.pkgd.min.js']).then(function () {
       init();
     });
   }
@@ -941,7 +941,7 @@ var Prices = function () {
 
 
   if (priceSwitcher.length > 0) {
-    fetchInject(['../assets/vendor/countup.js/dist/countUp.min.js']).then(function () {
+    fetchInject(['public/_resources/themes/lehnmuehleev/vendor/countup.js/dist/countUp.min.js']).then(function () {
       [].forEach.call(priceSwitcher, function (el, i) {
         init(el);
       });

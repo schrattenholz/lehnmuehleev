@@ -12,6 +12,6 @@
 $Layout
 <% include Footer %>
 <% include Javascript %>
-
+<% include Toasts %>
 </body>
 </html>
