@@ -6,7 +6,7 @@
 
 				<div class="row justify-content-md-between">
                     <div class="col-md-3 col-lg-3 d-flex flex-column justify-content-between ">
-                         <img class="mx-auto mx-md-0" src="public/_resources/themes/lehnmuehleev/images/logo_lehnmuehle_w.png" style="max-width: 160px;"/>
+                         <img class="mx-auto mx-md-0" src="_resources/themes/lehnmuehleev/images/logo_lehnmuehle_w.png" style="max-width: 160px;"/>
 
                         <!-- Footer social links -->
                         <div class="mt-4 mb-3 mt-lg-5 pt-lg-2 mx-auto mx-md-0 ">
