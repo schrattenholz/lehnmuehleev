@@ -1,8 +1,9 @@
 <div  class="$ColorSet.Class py-5">
 	<!-- Featured category -->
-    <section class="container-fluid px-0 ">
-		<div class="row" style="" >
-			<div class="col-md-6 px-5 px-lg-7 px-xl-9 mt-auto <% if $ImageLeft %>order-md-2<% else %>order-md-1<% end_if %>">
+    <section class="py-6 mb-6 py-lg-7 mb-lg-7">
+	<div class="container-fluid px-lg-0">
+		<div class="row align-items-center" style="" >
+			<div class="col-lg-4  <% if $ImageLeft %>order-md-2<% else %>order-md-1<% end_if %>">
 			<% if $ShowTitle %>
 						<h2  class="<% if $SubHead %>mb-0<% end_if %>">$Title</h2>
 						<% if $SubHead %>
@@ -12,11 +13,11 @@
 					$Content
 			</div>
 			<% if $Content2 %>
-			<div class="col-md-6 <% if $ImageLeft %>order-md-1<% else %>order-md-2<% end_if %>">
+			<div class="col-lg-6 mb-5 mb-lg-0 <% if $ImageLeft %>order-md-1<% else %>order-md-2<% end_if %>">
 					$Content2
 			</div>
 			<% else %>
-				<div class="col-md-6 <% if $ImageLeft %>order-md-1<% else %>order-md-2<% end_if %>">
+				<div class="col-lg-6 mb-5 mb-lg-0 <% if $ImageLeft %>order-md-1<% else %>order-md-2<% end_if %>">
 					 <picture>
 					  <source media="(min-width:1200px)" srcset="$Image.ScaleWidth(800).URL">
 					  <source media="(min-width:768px)" srcset="$Image.ScaleWidth(500).URL">
@@ -24,6 +25,6 @@
 					</picture> 
 				</div>
 			<% end_if %>
-		</div>
+		</div></div>
 	</section>
 </div>
