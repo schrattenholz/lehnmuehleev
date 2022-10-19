@@ -18,11 +18,13 @@
 			</div>
 			<% else %>
 				<div class="col-lg-6 mb-5 mb-lg-0 <% if $ImageLeft %>order-md-1<% else %>order-md-2<% end_if %>">
-					 <picture>
-					  <source media="(min-width:1200px)" srcset="$Image.ScaleWidth(800).URL">
-					  <source media="(min-width:768px)" srcset="$Image.ScaleWidth(500).URL">
-					  <img class="rounded-big-top-left rounded-big-bottom-right" src="$Image.ScaleWidth(400).URL" alt="$Image.Title" style="width:auto;">
-					</picture> 
+				
+				
+				<div class="py-12 py-lg-15">
+					<div class="bg-image bg-cover mr-lg-5" style="background-image: url($Image.ScaleWidth(800).URL);">
+					</div>
+				</div>
+
 				</div>
 			<% end_if %>
 		</div></div>
