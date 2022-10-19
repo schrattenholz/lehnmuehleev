@@ -6,12 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
         <!-- SEO Meta Tags-->
-        <meta name="description" content="Square - Premium Bootstrap Theme">
-        <meta name="keywords" content="bootstrap, theme, template, multipurpose, landing, html5, css3, javascript, event, case study, photography, about, team, portfolio, services, contact, pricing, faqs, careers, blog, sign in, sign up, coming soon, legal">
-        <meta name="author" content="Webinning Ltd.">
+        <meta name="description" content="Webseite des Lehnmuehle e.V.">
+        <meta name="keywords" content="demeter, landwirtschft, biodynamisch, gemeinnüzig">
+        <meta name="author" content="Sola-Soft">
 
         <!-- Page title-->
-        <title>Photography | Square - Premium Bootstrap Theme</title>
+        <title>Lehnmühle e.V.</title>
 
 		<!-- Favicon and Touch Icons-->
 		<link rel="apple-touch-icon" sizes="180x180" href="{$ThemeDir}images/icons/favicons/apple-touch-icon.png">

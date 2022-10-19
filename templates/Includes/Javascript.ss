@@ -2,7 +2,7 @@
 <script> var pageLink="$Link"; </script>
 <% require themedJavascript('theme.core') %>
 <!-- Theme Javascripts -->
-<% require themedJavascript('theme') %>
+<% require themedJavascript('theme.min') %>
  <% if $ClassName=="UserDefinedForm" %>
      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCueUA7hwyCVelrxdBpnil1ptUx9GocvZw"></script>
 	<script type="text/javascript" src="_resources/themes/lehnmuehleev/javascript/gmap3.min.js"></script>
