@@ -1,8 +1,8 @@
 <div  class="$ColorSet.Class py-5">
 	<!-- Featured category -->
-    <section class="container ">
+    <section class="container-fluid px-0 ">
 		<div class="row" style="" >
-			<div class="col-md-6 <% if $ImageLeft %>order-md-2<% else %>order-md-1<% end_if %>">
+			<div class="col-md-6 px-5 px-lg-7 px-xl-9 mt-auto <% if $ImageLeft %>order-md-2<% else %>order-md-1<% end_if %>">
 			<% if $ShowTitle %>
 						<h2  class="<% if $SubHead %>mb-0<% end_if %>">$Title</h2>
 						<% if $SubHead %>
@@ -16,7 +16,7 @@
 					$Content2
 			</div>
 			<% else %>
-				<div class="offset-md-1 col-md-5 <% if $ImageLeft %>order-md-1<% else %>order-md-2<% end_if %>">
+				<div class="col-md-6 <% if $ImageLeft %>order-md-1<% else %>order-md-2<% end_if %>">
 					 <picture>
 					  <source media="(min-width:1200px)" srcset="$Image.ScaleWidth(800).URL">
 					  <source media="(min-width:768px)" srcset="$Image.ScaleWidth(500).URL">
