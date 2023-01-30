@@ -1,7 +1,7 @@
 <section class="py-6 my-0 py-lg-7 bg-light" id="<% if $AnchorID %>$AnchorID<% else %>$URLSegment_$ID<% end_if %>">
         <div class="container-fluid px-0">
             <div class="row no-gutters">
-                <div class="col-lg-6" data-aos="fade-right">
+                <div class="min-vh-75 col-lg-6" data-aos="fade-right">
                     <div class="bg-image bg-cover" style="background-image: url($MainImage.ScaleWidth(900).URL);" data-jarallax data-speed=".9"></div>
                 </div>
                 <div class="col-10 col-lg-5 p-5 p-lg-7 align-items-center" data-aos="fade-left">

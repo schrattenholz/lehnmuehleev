@@ -26,7 +26,7 @@
 					<a href="$ButtonLink.Link<% if #$ButtonAnchor %>#$ButtonAnchor<% end_if %>" class="btn btn-secondary text-uppercase d-block d-lg-inline-flex align-items-center">$ButtonTitle<svg width="16" height="16" class="ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>$ButtonTitle</title><path d="M19.5,12a2.3,2.3,0,0,1-.78,1.729L7.568,23.54a1.847,1.847,0,0,1-2.439-2.773l9.752-8.579a.25.25,0,0,0,0-.376L5.129,3.233A1.847,1.847,0,0,1,7.568.46l11.148,9.808A2.31,2.31,0,0,1,19.5,12Z"/></svg></a>
 					<% end_if %>
                 </div>
-				<div class="col-lg-6" data-aos="fade-right">
+				<div class="min-vh-75 col-lg-6" data-aos="fade-right">
                     <div class="bg-image bg-cover" style="background-image: url($MainImage.ScaleWidth(900).URL);" data-jarallax data-speed=".9"></div>
                 </div>
             </div>
