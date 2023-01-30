@@ -68,7 +68,7 @@
 			</div>
                 <div class="row justify-content-center justify-content-lg-between small">
                     <div class="col-6">
-                        <a href="#" class="text-reset">Impressum</a> | <a href="#" class="text-reset">Datenschutz</a>
+                        <a href="{$BaseHref}impressum" class="text-reset">Impressum</a> | <a href="{$BaseHref}datenschutz" class="text-reset">Datenschutz</a>
                     </div>
                     <div class="col-6">
                         <span>&copy;  $Now.Year, $SiteConfig.BusinessName, $SiteConfig.MainContact</span>
