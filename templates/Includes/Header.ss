@@ -3,7 +3,7 @@
 <!-- Skip to main content -->
 <a href="#content" class="skip-to-main sr-only-focusable" role="button">Skip to main content</a>
         <!-- Brand -->
-        <a class="navbar-brand mr-auto p-4 bg-green" href="./index.html" aria-label="Click to go back to Homepage">
+        <a class="navbar-brand mr-auto p-4 bg-green" href="{$BaseHref}home" aria-label="Zur Startseite">
             <img src="_resources/themes/lehnmuehleev/images/logo_lehnmuehle_w.png" height="40"/>
         </a>
 
