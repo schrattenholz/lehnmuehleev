@@ -9,7 +9,9 @@
 <% include Head %>
 <body  <% if $i18nScriptDirection %>dir="$i18nScriptDirection"<% end_if %>>
 <% include Header %>
+<main>
 $Layout
+</main>
 <% include Footer %>
 <% include Javascript %>
 <% include Toasts %>

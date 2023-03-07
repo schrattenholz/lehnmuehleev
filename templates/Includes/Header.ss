@@ -1,4 +1,4 @@
-<header class="navbar navbar-expand-lg align-items-center w-100 position-absolute z-index-10 py-3 " >
+<header class="navbar navbar-dark navbar-expand-lg align-items-center w-100 position-absolute z-index-10 py-3 " >
     <div class="position-relative container-fluid"  >
 <!-- Skip to main content -->
 <a href="#content" class="skip-to-main sr-only-focusable" role="button">Skip to main content</a>
@@ -8,12 +8,12 @@
         </a>
 
             <!-- Toggler -->
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+	<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+																		<span class="navbar-toggler-icon"/>
+																	</button>
 
             <!-- Collapse -->
-            <div class="collapse navbar-collapse " data-sticky data-sticky-class="position-fixed" data-margin-top="10" id="navbarCollapse">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
                 <% include Navigation %>
 
                 <!-- Buy button -->
