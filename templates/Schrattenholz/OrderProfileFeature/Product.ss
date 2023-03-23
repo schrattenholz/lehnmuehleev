@@ -39,6 +39,6 @@ $Layout
 <% include Footer %>
 
 <% include Javascript %>
-<% include OrderIncludes %>
+<% include Schrattenholz\Order\Includes\OrderIncludes %>
 </body>
 </html>
